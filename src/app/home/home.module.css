@@ -1,0 +1,22 @@
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.main {
+  padding: 32px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.debugCard {
+  font-style: italic;
+  text-wrap: wrap;
+}

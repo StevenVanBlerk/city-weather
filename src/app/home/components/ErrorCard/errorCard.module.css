@@ -1,0 +1,11 @@
+.errorCard {
+  background: #ffdee4;
+  border: 1px solid #c80000;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 8px;
+}
+
+.errorCard h2 {
+  margin-bottom: 8px;
+}

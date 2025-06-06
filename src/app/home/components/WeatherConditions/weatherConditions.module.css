@@ -1,0 +1,14 @@
+.card h2 {
+  margin-bottom: 8px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+}
