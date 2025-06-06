@@ -21,7 +21,7 @@ type useWeatherSearchReturn = {
 
 const useWeatherSearch = (cityName: string): useWeatherSearchReturn => {
   const debounceDelay = 400; // ms
-  const debouncedCityName = useDebounce<string>(cityName, debounceDelay);
+  const debouncedCityName = useDebounce<string>(cityName, debounceDelay); // debouncing user input to avoid every keystroke triggering an API request
 
   const { data, error, isError, isFetching } = useQuery({
     queryKey: ["getCityWeather", debouncedCityName],
